@@ -1,4 +1,4 @@
-package org.yqj.boot.demo;
+package org.yqj.jvm.demo;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.ansi.AnsiColor;
@@ -15,6 +15,11 @@ import java.io.PrintStream;
  * Descirbe:
  */
 public class DemoBanner implements Banner{
+
+    public static void main(String[] args) {
+        char c = '玂';
+        System.out.println((int)c);
+    }
 
     private static final String[] BANNER = {
             "",
